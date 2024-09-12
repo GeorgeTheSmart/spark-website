@@ -1,0 +1,129 @@
+body{
+    overflow-x: hidden;
+    position: relative;
+    margin: 0 !important;
+    /* min-width: 100vw !important; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* width: 210% !important; */
+    flex-grow: 1;
+    width: 130vw !important;
+    height: 230vh !important;
+    max-width: 100x;
+    background-image: url("./images/bg-color-spark.jpg");
+    background-size: 100% 100%;
+}
+.nav{
+    width: 119.5vw;
+    padding-left: 8%;
+    font-family: sans-serif;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    font-size: 1.5rem;
+    background-image: url("./images/bg-color-spark.jpg");
+    color: white;
+}
+.design-thinking span{
+    font-weight: 500;
+    font-size: 5rem;
+}
+.design-thinking{
+    margin-top: 35%;
+    margin-left: 30%;
+    letter-spacing: px;
+    color: rgba(254,220,169,255);
+    font-family: 'Anton', sans-serif;
+}
+.design-thinking div{
+    margin-top: -30px;
+}
+.head-cont{
+    margin-top: 0 !important; 
+    color: white;
+    margin-left: 25%;
+    /* padding-top: %; */
+}
+.head-cont h1{
+    margin: 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.side-sec{
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 60%;
+    margin-top: -7%;
+    padding-left: 5%;
+}
+.sub-div > *{
+    width: 39%;
+    text-align: center;
+}
+.side-sec > *{
+    width: 280%;
+}
+.sub-div{
+    font-family: 'Anton', sans-serif;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12%;
+}
+.para{
+    margin-top: -5%;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+.heading{
+    font-size: 2rem;
+}
+.side-lef-sec, .side-right-sec{
+    display: flex;
+    flex-direction: column;
+}
+.sec-img img{
+    padding-top: 9%;
+    margin-left: 1%;
+}
+.main-guests-sec{
+    padding-top: 6%;
+    color: white;
+    font-size: 2.5rem;
+}
+.guest-title{
+    font-family: "Inter", sans-serif;
+    padding-left: 30%;
+}
+.guest-img-cont{
+    padding-top: 3% !important;
+    width: 100vh !important;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15%;
+}
+.guest-img-cont div{
+    border-radius: 10px;
+    width: 270px;
+    height: 300px;
+    background-color: #D9D9D9;
+    opacity: 0.7;
+}
+.dup-2{
+    z-index: -1;
+    /* opacity: 0.3; */
+}
+.dup-2 > * {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+.dup-2 .name{
+    opacity: 1 !important;
+}
